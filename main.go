@@ -121,7 +121,6 @@ func calc(oper Operation, t int8) {
 }
 
 func outputRim(res int) string {
-	fmt.Println(res)
 	if res == 0 {
 		return ""
 	} else if res < 4 {
